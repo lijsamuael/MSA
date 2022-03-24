@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <div class="top-nav">
+        <img src="images/logo.jpg" alt="image">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="about.html">About</a></li>
+            <li>
+                <div class="searchBox">
+                    <img src="images/search-icon.ico" alt="image">
+                    <input type="text" placeholder="Search here ">
+                    <img src="images/cross.png" alt="image">
+                </div>
+            </li>
+        </ul>
+        <button class="menu" id="menu-id">Menu</button>
+    </div>
+    <div class="menu-nav" id="menu-nav-id">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="profile.html">Profile</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li><a href="registration.html">Registration</a></li>
+            <li><a href="contacts.html">Contacts</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+
+    </div>
+    <div class="topic">
+        <h1>Register Here</h1>
+        <hr>
+    </div>
+    <form class="form" id="form">
+        <div class="register-nav">
+            <ul>
+                <li>
+                    <label>Name</label><br>
+                    <input type="text" id="fname" placeholder="First name" required>
+                    <input type="text" id="lname" placeholder="Last name" required>
+                </li>
+                <li>
+                    <label>Gender</label><br>
+                    <input type="radio" id="gender"> Male
+                    <input type="radio" id="gender"> Female
+                </li>
+                <li>
+                    <label>Date of birth</label><br>
+                    <input type="date" id="dateOfBirth" required></input>
+                </li>
+                <li>
+                    <label>Email</label><br>
+                    <input type="email" id="email" placeholder="sth.@gmail.com">
+                </li>
+                <li>
+                    <label>Password</label><br>
+                    <input type="password" id="password" required>
+                </li>
+                <li>
+                    <label>Password again</label><br>
+                    <input type="password" id="rePassword" required>
+                </li>
+                <li>
+                    <input type="checkbox" id="checkBox" required>Accept terms and privacies
+                </li>
+                <li>
+                    <button type="submit" value="submit" id="submit-id"><a href="profile.html"></a>Submit</button>
+                </li>
+            </ul>
+        </div>
+    </form>
+</body>
+<script src="js/registration.js" charset="utf-8"></script>
+
+</html>

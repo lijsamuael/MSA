@@ -1,0 +1,225 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: cursive;
+}
+
+body {
+    background-color: yellow;
+    display: inline;
+    color: red;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    cursor: pointer;
+    margin: 40px 5px;
+    display: flex;
+    padding: 0% 5px;
+    font-size: 20px;
+    color: yellow;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: chocolate;
+}
+
+.menu-nav {
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-color: chocolate;
+    display: none;
+    color: yellow;
+}
+
+.menu-nav li {
+    padding-bottom: 20px;
+    border-bottom: solid;
+    padding-left: 10px;
+}
+
+.menu-nav a {
+    color: yellow;
+}
+
+.menu-nav li:hover {
+    color: red;
+    background-color: #80bfff;
+}
+
+.menu-nav li {
+    list-style: none;
+    border-radius: 5px;
+}
+
+.topic hr,
+h1 {
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.top-nav {
+    display: flex;
+    background: #80bfff;
+    position: static;
+}
+
+.top-nav img {
+    width: 100px;
+    height: 75px;
+    margin: 10px 2%;
+    cursor: pointer;
+}
+
+.top-nav ul {
+    align-items: center;
+    list-style: none;
+    margin-left: 15%;
+    margin-top: 2%;
+}
+
+.top-nav li {
+    cursor: pointer;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.top-nav a {
+    padding: 0% 5px;
+    font-size: 20px;
+    color: yellow;
+    align-items: center;
+}
+
+.top-nav a:hover {
+    color: black;
+    background-color: yellow;
+    border-radius: 5px;
+    border-top: 0ch;
+}
+
+.searchBox {
+    margin: 5px;
+    padding: 0% 5px;
+    background-color: #cce6ff;
+    border-radius: 20px;
+    display: flex;
+    padding: 0 15px;
+}
+
+.searchBox img {
+    height: 20px;
+    width: 20px;
+    align-items: center;
+    display: flex;
+}
+
+.searchBox input {
+    margin: 5px, 1px;
+    border-radius: 10px;
+    display: flex;
+}
+
+@media screen and (max-width: 1220px) {
+    .top-nav li {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1220px) {
+    .menu {
+        display: none;
+    }
+}
+
+.register-nav {
+    border-color: green;
+    background-color: gold;
+    border-radius: 20px;
+    padding-left: 20px;
+    margin: 10px 10%;
+}
+
+.register-nav li {
+    align-items: center;
+    padding-left: 20px;
+    padding-top: 25px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.register-nav button {
+    width: 100px;
+    height: 30px;
+    border-color: green;
+    border-radius: 5px;
+    background-color: yellow;
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.register-nav button:hover {
+    background-color: green;
+    color: yellow;
+}
+
+.register-nav label {
+    color: black;
+    font-weight: bold;
+}
+
+.register-nav input {
+    margin-top: 5px;
+    background-color: #cce6ff;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    height: 25px;
+    border-color: black;
+    display: inline-block;
+}
+
+.register-nav small {
+    color: red;
+    border: inset;
+    border-color: red;
+    visibility: hidden;
+}
+
+.contact-nav {
+    align-items: center;
+    text-decoration: none;
+    margin: 20px, 10%;
+    background-color: gold;
+    border-radius: 20px;
+}
+
+.contact-nav table {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.contact-nav img {
+    width: 50px;
+}
+
+.contact-nav td {
+    padding: 100px;
+    display: inline-block;
+}
+
+.contact-nav li {
+    font-size: 20px;
+}
